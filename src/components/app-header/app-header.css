@@ -1,0 +1,28 @@
+header {
+    background-color: #6c0076;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    margin-right: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.active{
+    color:yellow !important;
+}
+

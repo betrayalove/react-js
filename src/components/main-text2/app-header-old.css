@@ -1,0 +1,41 @@
+.main-header{
+    position: fixed;
+    width: 100%;
+    background-color: blueviolet;
+    z-index:999;
+    text-align: center;
+
+}
+.nav-menu {
+
+}
+
+
+
+.nav-item{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.nav-menu a {
+    display: inline;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    transition: all 0.3s;
+
+    color: white;
+    padding: 0 75px 0 75px;
+}
+
+.nav-image{
+
+}
+
+.nav-menu a:hover {
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+    /*font-size: 24px;*/
+    transition: all 0.3s ease;
+
+}
+
+
