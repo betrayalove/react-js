@@ -1,0 +1,29 @@
+.oblojka{
+    width: 250px;
+    height: 250px;
+}
+.play-stop{
+    width: 100px !important;
+    height: 100px !important;
+}
+.card-element{
+    width: 49%;
+    height: 250px;
+    background-color: fuchsia;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    max-height: 250px;
+}
+.card-element:nth-child(2n){
+    float: left;
+}
+.card-element:nth-child(2n+1){
+    float: right;
+}
+
+.text-el{
+    display: inline-block;
+}
+
+
