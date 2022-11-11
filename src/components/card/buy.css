@@ -5,9 +5,11 @@ width: 100%;
 .oblojka{
     width: 250px;
     height: 250px;
+    border-radius: 25px 0 0 25px;
 }
+
 .elements{
-    background-color: #ff5aff;
+    background-color: rgba(255, 90, 255, 0.5);
     list-style: none;
     display: flex;
     margin: 0;
@@ -38,6 +40,13 @@ width: 100%;
 
 }
 .player{
+    padding-top: 75px;
     margin-left: -25px;
     margin-right: 20px;
+
+}
+
+.oblojka:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.1);
 }
