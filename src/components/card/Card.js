@@ -13,7 +13,6 @@ function Card(props) {
         <body>
         <section className='section-card'>
             <div className='card'>
-
                 <ul className='elements'>
                     <li className='el'>
                         <Link to="/contacts">

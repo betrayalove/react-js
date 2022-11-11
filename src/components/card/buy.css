@@ -3,8 +3,8 @@
 width: 100%;
 }
 .oblojka{
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     border-radius: 25px 0 0 25px;
 }
 
@@ -34,16 +34,9 @@ width: 100%;
     text-transform: uppercase;
 }
 
-.totalTime{
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 75px;
-
-}
 .player{
-    padding-top: 75px;
-    margin-left: -25px;
+    padding-top: 50px;
     margin-right: 20px;
-
 }
 
 .oblojka:hover{

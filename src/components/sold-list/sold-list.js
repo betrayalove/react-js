@@ -1,20 +1,20 @@
 import React from 'react';
-import './buy.css'
+import './sold.css'
 import '../../index.css'
 import Card from "../card/Card";
+import sold_arr from "./sold_goods_list";
 
-import goods_list from './goods_list'
 
-
-const BuyList = () => {
+const SoldList = () => {
     return (
         <div className='product'>
-            {goods_list.map((obj) => (
+            {sold_arr.map((obj) => (
                 <Card
                     author={obj.author}
                     title={obj.title}
                     audioUrl={obj.audioUrl}
                     imageUrl={obj.imageUrl}
+                    isActive={obj.isActive}
                 />
             ))}
         </div>
@@ -22,4 +22,4 @@ const BuyList = () => {
 }
 
 
-export default BuyList;
+export default SoldList;
