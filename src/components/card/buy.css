@@ -1,0 +1,52 @@
+.oblojka{
+    width: 250px;
+    height: 250px;
+}
+.elements{
+    width: 49%;
+    height: 250px;
+    background-color: fuchsia;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    box-shadow: 0 0 10px 0 black;
+    border-radius:25px;
+}
+.card-element ul{
+
+    margin: 0;
+    padding: 0;
+}
+.card-element:nth-child(2n){
+
+}
+.card-element:nth-child(2n+1){
+    float: right;
+}
+
+.el{
+    list-style: none;
+    vertical-align:middle;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.play-stop{
+    border: 1px solid #000000;
+}
+.author{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.title{
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.totalTime{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 75px;
+}

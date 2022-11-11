@@ -3,55 +3,52 @@ import './buy.css'
 import '../../index.css'
 import img1 from "../../images/logo_black.png";
 import { Col, Row } from 'antd';
+import Card from "../card/Card";
+
+const arr = [
+    {
+        id: 1,
+        author: 'betrayalove1',
+        title: 'devil',
+        time: '53:22',
+        imageUrl: require('../../images/logo_black.png')
+    },
+    {
+        id: 2,
+        author: 'betrayalove1',
+        title: 'devil',
+        time: '53:22',
+        imageUrl: require('../../images/logo_black.png')
+    },
+    {
+        id: 3,
+        author: 'betrayalove1',
+        title: 'devil',
+        time: '53:22',
+        imageUrl: require('../../images/logo_black.png')
+    },
+    {
+        id: 4,
+        author: 'betrayalove2',
+        title: 'flora',
+        time: '53:22',
+        imageUrl: require('../../images/logo_white.png')
+    },
+];
 
 
 const BuyList = () => {
     return (
-        <body>
-        <section>
-
-            <div className='cards-list'>
-                <ul className='cards-ul'>
-                    <li className='card-element'>
-                        <div className='div-top'>
-                            <ul className='card-elements'>
-                                <li className='text-el'>
-                                    <img className='oblojka' src={img1}></img></li>
-                                <li className='text-el'>
-                                    <div className='text'>
-                                        <p className='author'>betrayalove2</p>
-                                        <p className='title'>FLORA</p>
-                                        <p className='time'>12:15</p>
-                                    </div>
-                                </li>
-                                <li className='text-el'>
-                                    <img className='play-stop' src={img1}></img>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li className='card-element'>
-                        <ul className='card-elements'>
-                            <li className='text-el'>
-                                <img className='oblojka' src={img1}></img></li>
-                            <li className='text-el'>
-                                <div className='text'>
-                                    <p className='author'>betrayalove2</p>
-                                    <p className='title'>FLORA</p>
-                                    <p className='time'>12:15</p>
-                                </div>
-                            </li>
-                            <li className='text-el'>
-                                <img className='play-stop' src={img1}></img>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-
-        </body>
+        <div className='product'>
+            {arr.map((obj) => (
+                <Card
+                    author={obj.author}
+                    title={obj.title}
+                    time={obj.time}
+                    imageUrl={obj.imageUrl}
+                />
+            ))}
+        </div>
     );
 }
 
