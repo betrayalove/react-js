@@ -2,7 +2,7 @@ import React from 'react';
 import './main-text.css'
 import '../../index.css'
 import img1 from '../../images/logo_black.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const MainText = () => {
     return (
