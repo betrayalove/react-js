@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 10px 0 black;
@@ -19,7 +19,7 @@ header li a {
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .active{

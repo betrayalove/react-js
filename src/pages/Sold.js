@@ -1,8 +1,10 @@
 import AppHeader from "../components/app-header";
 import './pages.css';
 
+
 const Sold = () => {
-    return (
+
+    return(
         <div>
             <AppHeader/>
         </div>

@@ -9,19 +9,20 @@ import Sold from "./pages/Sold";
 import './index.css'
 
 
+
 function App() {
-  return (
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Main/>}></Route>
-          <Route path='/buy' element={<Buy/>}></Route>
-          <Route path='/sold' element={<Sold/>}></Route>
-          <Route path='/collab' element={<Collab/>}></Route>
-          <Route path='/contacts' element={<Contacts/>}></Route>
-          <Route path='*' element={<NotFoundPage/>}></Route>
-        </Routes>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Main/>}></Route>
+                <Route path='/buy' element={<Buy/>}></Route>
+                <Route path='/sold' element={<Sold/>}></Route>
+                <Route path='/collab' element={<Collab/>}></Route>
+                <Route path='/contacts' element={<Contacts/>}></Route>
+                <Route path='*' element={<NotFoundPage/>}></Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
