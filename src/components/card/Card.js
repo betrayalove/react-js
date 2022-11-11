@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import '../../index.css'
-import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
 import sound1 from "../../sounds/1.mp3";
 
