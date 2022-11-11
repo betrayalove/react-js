@@ -1,12 +1,11 @@
-import React, {useRef, useState} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 import '../../index.css'
 import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
-import sound1 from "../../sounds/1.mp3";
+
 
 function Card(props) {
-    // const [isPlaying, setIsPlaying] = useState(false)
 
 
     return (
