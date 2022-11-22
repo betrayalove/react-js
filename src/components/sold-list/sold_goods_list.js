@@ -1,11 +1,12 @@
 const sold_arr = [
     {
-        id: 1,
+        id: 8,
         author: 'SOLD',
         title: 'SOLD',
-        audioUrl: require('../../sounds/1.mp3'),
-        imageUrl: require('../../images/logo_black.png'),
-        isActive: true
+        audioUrl: require('../../sounds/8.mp3'),
+        imageUrl: require('../../images/8.png'),
+        isActive: true,
+        isFavorite: false,
     }]
 ;
 

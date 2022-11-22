@@ -1,9 +1,16 @@
-.product{
-    display: flex;
-
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
+.products{display: grid;
+grid-template-columns: repeat(auto-fill);
+margin: 0;
+padding: 20px;
+grid-auto-flow: dense;
 }
+/*.product{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*    flex-wrap: wrap;*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    line-height: 0;*/
+/*}*/

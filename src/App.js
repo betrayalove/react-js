@@ -7,6 +7,7 @@ import Contacts from "./pages/Contacts";
 import NotFoundPage from "./pages/NotFoundPage";
 import Sold from "./pages/Sold";
 import './index.css'
+import Favorite from "./pages/Favorite";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/sold' element={<Sold/>}></Route>
                 <Route path='/collab' element={<Collab/>}></Route>
                 <Route path='/contacts' element={<Contacts/>}></Route>
+                <Route path='/favorite' element={<Favorite/>}></Route>
                 <Route path='*' element={<NotFoundPage/>}></Route>
             </Routes>
         </BrowserRouter>

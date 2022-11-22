@@ -1,14 +1,12 @@
-
-import React from 'react';
 import {Link} from "react-router-dom";
 import '../../index.css'
 import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
+import React, { useState } from "react";
 
 function Card(props) {
-
-
-    return (
+        const [isFavorite, setIsFavorite] = useState(false)
+        return (
         <body>
         <section className='section-card'>
             <div className='card'>
@@ -18,7 +16,7 @@ function Card(props) {
                             <img className='oblojka' width={200} height={200} src={props.imageUrl} alt=''/>
                         </Link>
                     </li>
-                    <li className='el'>
+                    <li className='el ttl'>
                         <p className='author'>{props.author.toUpperCase()}</p>
                         <p className='title'>{props.title.toLowerCase()}</p>
                         <p></p>
@@ -31,6 +29,8 @@ function Card(props) {
                             volume={0.5}
                         /></p>
                     </li>
+                    <li><button className={isFavorite ? 'but2 but' : 'but1 but'} onClick={() => setIsFavorite(v => !v)}>★</button></li>
+                    {/*<li><img className={isFavorite ? 'but' : 'but2'} src={isFavorite ? Pause : Play} onClick={() => {setIsFavorite(v=>!v)}}/></li>*/}
                     {/*<li className='el'><img className='playButton' width={50} height={50} src={isPlaying ? Pause : Play}*/}
                     {/*         onClick={() => {*/}
                     {/*             setIsPlaying(v => !v)*/}

@@ -1,0 +1,61 @@
+
+.card{
+width: 100%;
+}
+.oblojka{
+    width: 225px;
+    height: 225px;
+    border-radius: 25px 0 0 25px;
+}
+
+.elements{
+    background-color: rgba(255, 90, 255, 0.5);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    box-shadow: 0 0 10px 0 black;
+    border-radius:25px;
+}
+
+
+.author{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.title{
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.player{
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.oblojka:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*.elements{*/
+/*    background-color: rgba(255, 90, 255, 0.5);*/
+/*    list-style: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    line-height: 0;*/
+/*    box-shadow: 0 0 10px 0 black;*/
+/*    border-radius:25px;*/
+/*    display: grid;*/
+/*    grid-template-columns: 225px 1fr 25px;*/
+/*    grid-template-areas: "image title but"*/
+/*                       "image player player";*/
+/*}*/
