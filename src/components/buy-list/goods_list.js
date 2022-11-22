@@ -62,6 +62,24 @@ const arr = [
         isActive: true,
         isFavorite: false,
     },
+    {
+        id: 7,
+        author: 'betrayalove',
+        title: 'fraddy',
+        audioUrl: require('../../sounds/7.mp3'),
+        imageUrl: require('../../images/7.jpg'),
+        isActive: true,
+        isFavorite: false,
+    },
+    {
+        id: 7,
+        author: 'betrayalove',
+        title: 'fraddy',
+        audioUrl: require('../../sounds/7.mp3'),
+        imageUrl: require('../../images/7.jpg'),
+        isActive: true,
+        isFavorite: false,
+    },
 ];
 
 
