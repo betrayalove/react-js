@@ -1,9 +1,9 @@
+
 import React from 'react';
 import {Link} from "react-router-dom";
 import '../../index.css'
 import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
-
 
 function Card(props) {
 

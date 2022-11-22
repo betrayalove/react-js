@@ -9,10 +9,7 @@ import Sold from "./pages/Sold";
 import './index.css'
 
 
-
 function App() {
-
-
 
 
     return (
