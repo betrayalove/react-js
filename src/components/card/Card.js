@@ -30,11 +30,6 @@ function Card(props) {
                         /></p>
                     </li>
                     <li><button className={isFavorite ? 'but2 but' : 'but1 but'} onClick={() => setIsFavorite(v => !v)}>★</button></li>
-                    {/*<li><img className={isFavorite ? 'but' : 'but2'} src={isFavorite ? Pause : Play} onClick={() => {setIsFavorite(v=>!v)}}/></li>*/}
-                    {/*<li className='el'><img className='playButton' width={50} height={50} src={isPlaying ? Pause : Play}*/}
-                    {/*         onClick={() => {*/}
-                    {/*             setIsPlaying(v => !v)*/}
-                    {/*         }}/>< /li>*/}
                 </ul>
             </div>
         </section>
