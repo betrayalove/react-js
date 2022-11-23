@@ -1,40 +1,39 @@
-import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import '../../index.css'
+import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
-import sound1 from "../../sounds/1.mp3";
+import React, { useState } from "react";
 
 function Card(props) {
-    const [isPlaying, setIsPlaying] = useState(false)
-
-    return (
+        const [isFavorite, setIsFavorite] = useState(false)
+        return (
         <body>
         <section className='section-card'>
             <div className='card'>
                 <ul className='elements'>
-                    <li className='el'><img className='oblojka' width={200} height={200} src={props.imageUrl} alt=''/></li>
                     <li className='el'>
+                        <Link to="/contacts">
+                            <img className='oblojka' width={200} height={200} src={props.imageUrl} alt=''/>
+                        </Link>
+                    </li>
+                    <li className='el ttl'>
                         <p className='author'>{props.author.toUpperCase()}</p>
                         <p className='title'>{props.title.toLowerCase()}</p>
-                        <p className='totalTime'>{props.time}</p>
-                        <ReactAudioPlayer
-                            src={sound1}
+                        <p></p>
+                        <p className='player'><ReactAudioPlayer
+                            src={props.audioUrl}
                             autoPlay={false}
                             controls
                             onAbort={true}
                             onCanPlay
                             volume={0.5}
-                        />
+                        /></p>
                     </li>
-                    {/*<li className='el'><img className='playButton' width={50} height={50} src={isPlaying ? Pause : Play}*/}
-                    {/*         onClick={() => {*/}
-                    {/*             setIsPlaying(v => !v)*/}
-                    {/*         }}/>< /li>*/}
+                    <li><button className={isFavorite ? 'but2 but' : 'but1 but'} onClick={() => setIsFavorite(v => !v)}>★</button></li>
                 </ul>
             </div>
         </section>
         </body>
-
     )
 }
 
