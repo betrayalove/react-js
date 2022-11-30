@@ -22,11 +22,10 @@
     width:  100%;
     text-align: center;
     margin-top: 150px;
-
 }
 
 .button-ftd{
-    width: 100%;
+    width: 300px;
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -36,7 +35,8 @@
     background-color: rgba(240, 248, 255, 0.41);
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0 0 10px 5px;
-
+    transition: 1s;
+    cursor: pointer;
 }
 
 .new-beats{
@@ -109,4 +109,34 @@
 .fake{
     margin-bottom: 50px;
     visibility: hidden;
+}
+@keyframes rotate-colors {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.active{
+    color: blue;
+    animation: rotate-colors 10s linear infinite;
+}
+
+.ftdd:hover {
+    color: #fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff;
+    transition: 2s;
+}
+.ftdd{
+    transition: 2s;
+}
+
+.button-ftd:hover{
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #fff;
+    transition: 1s;
+}
+
+more-beat-b{
+
 }
