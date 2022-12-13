@@ -26,7 +26,7 @@ function Card(props) {
                             controls
                             onAbort={true}
                             onCanPlay
-                            volume={0.5}
+                            volume={0.25}
                         /></p>
                     </li>
                     <li><button className={isFavorite ? 'but2 but' : 'but1 but'} onClick={() => setIsFavorite(v => !v)}>★</button></li>

@@ -4,7 +4,10 @@ import '../../index.css'
 import img1 from '../../images/logo_black.png'
 import {Link} from "react-scroll";
 
+
+
 const MainText = () => {
+
     return (
         <body>
         <main>

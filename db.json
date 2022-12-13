@@ -1,0 +1,85 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "author": "betrayalove",
+      "title": "flora",
+      "audioUrl": "require('../../sounds/1.mp3')",
+      "imageUrl": "require('../../images/1.png')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "author": "betrayalove",
+      "title": "requiem",
+      "audioUrl": "require('../../sounds/2.mp3')",
+      "imageUrl": "require('../../images/2.png')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "author": "betrayalove",
+      "title": "tinker",
+      "audioUrl": "require('../../sounds/3.mp3')",
+      "imageUrl": "require('../../images/3.png')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 4,
+      "author": "betrayalove",
+      "title": "summer",
+      "audioUrl": "require('../../sounds/4.mp3')",
+      "imageUrl": "require('../../images/4.png')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 5,
+      "author": "betrayalove",
+      "title": "winter",
+      "audioUrl": "require('../../sounds/5.mp3')",
+      "imageUrl": "require('../../images/5.jpg')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 6,
+      "author": "betrayalove",
+      "title": "spring",
+      "audioUrl": "require('../../sounds/6.mp3')",
+      "imageUrl": "require('../../images/6.png')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 7,
+      "author": "betrayalove",
+      "title": "fraddy",
+      "audioUrl": "require('../../sounds/7.mp3')",
+      "imageUrl": "require('../../images/7.jpg')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 8,
+      "author": "betrayalove",
+      "title": "fraddy",
+      "audioUrl": "require('../../sounds/7.mp3')",
+      "imageUrl": "require('../../images/7.jpg')",
+      "isActive": true,
+      "isFavorite": false
+    },
+    {
+      "id": 9,
+      "author": "betrayalove",
+      "title": "fraddy",
+      "audioUrl": "require('../../sounds/7.mp3')",
+      "imageUrl": "require('../../images/7.jpg')",
+      "isActive": true,
+      "isFavorite": false
+    }
+  ]
+}
