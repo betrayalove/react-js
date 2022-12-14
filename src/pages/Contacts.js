@@ -1,9 +1,10 @@
 import AppHeader from "../components/app-header";
 import './pages.css';
-import vk from '../images/VK_black.svg';
-import yt from '../images/YouTube_black.svg';
-import ig from '../images/Instagram_black.svg';
-import sc from '../images/SoundCloud_black.svg';
+import vk from '../img/VK_black.svg';
+import yt from '../img/YouTube_black.svg';
+import ig from '../img/Instagram_black.svg';
+import sc from '../img/SoundCloud_black.svg';
+
 import {
     fadeInDownBig,
     fadeInLeftBig,

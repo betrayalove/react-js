@@ -4,6 +4,7 @@ import './buy.css'
 import ReactAudioPlayer from "react-audio-player";
 import React, { useState } from "react";
 
+
 function Card(props) {
         const [isFavorite, setIsFavorite] = useState(false)
         return (
@@ -13,13 +14,13 @@ function Card(props) {
                 <ul className='elements'>
                     <li className='el'>
                         <Link to="/contacts">
-                            <img className='oblojka' width={200} height={200} src={props.imageUrl} alt=''/>
+                            <img className='oblojka' width={200} height={200} src={props.imageUrl} alt={props.id}/>
                         </Link>
                     </li>
                     <li className='el ttl'>
                         <p className='author'>{props.author.toUpperCase()}</p>
                         <p className='title'>{props.title.toLowerCase()}</p>
-                        <p></p>
+
                         <p className='player'><ReactAudioPlayer
                             src={props.audioUrl}
                             autoPlay={false}

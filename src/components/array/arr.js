@@ -4,28 +4,28 @@ const arr = [
         author: 'betrayalove1',
         title: 'devil',
         time: '53:22',
-        imageUrl: require('../../images/logo_black.png')
+        imageUrl: require('../../img/logo_black.png')
     },
     {
         id: 2,
         author: 'betrayalove1',
         title: 'devil',
         time: '53:22',
-        imageUrl: require('../../images/logo_black.png')
+        imageUrl: require('../../img/logo_black.png')
     },
     {
         id: 3,
         author: 'betrayalove1',
         title: 'devil',
         time: '53:22',
-        imageUrl: require('../../images/logo_black.png')
+        imageUrl: require('../../img/logo_black.png')
     },
     {
         id: 4,
         author: 'betrayalove2',
         title: 'flora',
         time: '53:22',
-        imageUrl: require('../../images/logo_white.png')
+        imageUrl: require('../../../public/images/logo_white.png')
     },
 ];
 

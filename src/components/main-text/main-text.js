@@ -1,7 +1,7 @@
 import React from 'react';
 import './main-text.css'
 import '../../index.css'
-import img1 from '../../images/logo_black.png'
+import img1 from '../../img/logo_black.png'
 import {Link} from "react-scroll";
 
 
